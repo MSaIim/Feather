@@ -16,7 +16,7 @@ This will make a folder called `node_modules` with all the necessary folders and
 
 Before we move any further, you must obtain a Yotube API key. Follow these steps to obtain one:
 
-+ Go to the developers page of Google: [Google APIS](https://console.developers.google.com)
++ Go to the developers page of Google: [Google APIs](https://console.developers.google.com)
 + In the search bar type: "Youtube Data API v3"
 + Click on the "Enable API" button
 + Create a new "Credential" and create a new "Browser key" (Name it whatever you want)
