@@ -34,7 +34,7 @@ This command uses the `start` script inside `package.json` to run the `webpack-d
     
 You should now see the main page of Feather. It should look like the .gif above.
 
-# ![](http://i.imgur.com/FRpGVSt.png) To-Do
+## ![](http://i.imgur.com/FRpGVSt.png) To-Do
 
 + Add Redux
 + More information on the video
