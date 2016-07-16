@@ -11,7 +11,7 @@ Before we do anything, we must first obtain a Youtube API key.
 + Go to the developers page of Google: [Google APIs](https://console.developers.google.com)
 + In the search bar type: "Youtube Data API v3"
 + Click on the "Enable API" button
-+ Create a new "Credential" and create a new "Browser key" (Name it whatever you want)
++ Create a new "Credential" with a new "Browser key" (Name it whatever you want)
 
 Once you obtain your Youtube API key, we must configure one file called `index.js` inside the `src` folder. Copy your new key and paste it inside the constant called `YTAPI_KEY` between quotes.
   
