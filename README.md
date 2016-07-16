@@ -6,3 +6,20 @@ Feather is a minimal Youtube where it updates as you type in the search bar. It 
 </p>
 
 ## ![](http://i.imgur.com/XVywMCv.png) Usage
+Install [NodeJS](https://nodejs.org/) on your computer. Choose either 64bit or 32bit.
+
+Download all the dependencies listed inside `package.json` with the following command:
+
+    npm install
+
+This will make a folder called `node_modules` with all the necessary folders and files.
+
+Feather uses `webpack` and `babel` to transpile the ES6 code into ES5 so the browser will know how to read it (currently, no browser supports ES6). Open up a terminal or command prompt and type the following to transpile:
+
+    npm start
+    
+This command uses the `start` script inside `package.json` to run the `webpack-dev-server`. Leave this running and open up your browser of choice and type the following URL:
+
+    localhost:8080
+    
+You should now see the main page of Feather. It should look like the .gif above.
