@@ -1,4 +1,4 @@
-# Feather
+# ![logo](http://i.imgur.com/PoMtJzj.png) Feather
 Feather is a minimal Youtube where it updates as you type in the search bar. It was built using ReactJS.
 
 <p align="center">
