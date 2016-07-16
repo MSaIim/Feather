@@ -32,7 +32,8 @@ This command uses the `start` script inside `package.json` to run the `webpack-d
 
     localhost:8080
     
-Port can be changed in `./node_modules/webpack-dev-server/bin/webpack-dev-server.js`. You should now see the main page of Feather. It should look like the .gif above.
+Port can be changed in `./node_modules/webpack-dev-server/bin/webpack-dev-server.js`.
+You should now see the main page of Feather. It should look like the .gif above.
 
 ## ![](http://i.imgur.com/FRpGVSt.png) To-Do
 
