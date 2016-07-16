@@ -14,6 +14,15 @@ Download all the dependencies listed inside `package.json` with the following co
 
 This will make a folder called `node_modules` with all the necessary folders and files.
 
+Before we move any further, you must obtain a Yotube API key. Follow these steps to obtain one:
+
++ Go to the developers page of Google: [Google APIS](https://console.developers.google.com)
++ In the search bar type: "Youtube Data API v3"
++ Click on the "Enable API" button
++ Create a new "Credential" and create a new "Browser key" (Name it whatever you want)
+
+Once you obtain your Youtube API key, we must configure one file called `index.js` inside the `src` folder. Copy your new key and paste it inside the constant called `YTAPI_KEY` between quotes.
+
 Feather uses `webpack` and `babel` to transpile the ES6 code into ES5 so the browser will know how to read it (currently, no browser supports ES6). Open up a terminal or command prompt and type the following to transpile:
 
     npm start
