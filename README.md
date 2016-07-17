@@ -11,7 +11,7 @@ Before we do anything, we must first obtain a Youtube API key.
 + Go to the developers page of Google: [Google APIs](https://console.developers.google.com)
 + In the search bar type: "Youtube Data API v3"
 + Click on the "Enable API" button
-+ Create a new "Credential" and create a new "Browser key" (Name it whatever you want)
++ Create a new "Credential" with a new "Browser key" (Name it whatever you want)
 
 Once you obtain your Youtube API key, we must configure one file called `index.js` inside the `src` folder. Copy your new key and paste it inside the constant called `YTAPI_KEY` between quotes.
   
@@ -32,7 +32,9 @@ This command uses the `start` script inside `package.json` to run the `webpack-d
 
     localhost:8080
     
-You should now see the main page of Feather. It should look like the .gif above.
+You should now see the main page of Feather. It should look like the animation above. **Note**: Port can be changed in `./node_modules/webpack-dev-server/bin/webpack-dev-server.js`.
+
+
 
 ## ![](http://i.imgur.com/FRpGVSt.png) To-Do
 
