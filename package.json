@@ -2,11 +2,10 @@
   "name": "feather",
   "version": "1.0.0",
   "description": "Lightweight Youtube browser",
-  "repository": "https://github.com/MSaIim/YT-Feather.git",
+  "repository": "https://github.com/MSaIim/Feather.git",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "start-compress": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js -compress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mo",
